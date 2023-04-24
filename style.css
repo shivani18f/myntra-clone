@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-html, body {
+
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -9,216 +11,233 @@ html, body {
   font-size: 30px;
   text-shadow: 3px 3px 3px #ababab;
 }
-     *{
-      margin: 0;
-      padding: 0;
-     }     
-.Myntra_Logo{
 
-    height: 40px;
-    width: 50px;
-    flex-wrap: wrap;
-    position: relative;
-    margin-left: 20px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Myntra_Logo {
+
+  height: 40px;
+  width: 50px;
+  flex-wrap: wrap;
+  position: relative;
+  margin-left: 20px;
 }
 
 
 
-nav ul{
-display: flex;
-justify-content: center;
-   justify-items: center;
+nav ul {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 
 
 
 
 }
-header{
+
+header {
   position: sticky;
   top: 0;
- height: 100px;
+  height: 100px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   background-color: white;
+  backface-visibility: luminosity;
 
 }
 
-.rightBox{
-    display: flex;
-    margin: 12px;
-  }
+.rightBox {
+  display: flex;
+  margin: 12px;
+}
 
-.left img{
+.left img {
   width: 20px;
   height: 20px;
   margin-left: 5px;
 }
 
-.Myntra_Logo{
-background-image:radial-gradient() ;
-width: 100px;
-height: 65px;
-padding-top: 15px;
+.Myntra_Logo {
+  background-image: radial-gradient();
+  width: 100px;
+  height: 65px;
+  padding-top: 15px;
 
 }
 
-nav2 div{
-   margin-top:30px;
+nav2 div {
+  margin-top: 30px;
   height: 50px;
-  background-image: linear-gradient(90deg,#f9f9ff,#dee8ff);
+  background-image: linear-gradient(90deg, #f9f9ff, #dee8ff);
   position: relative;
   padding-top: 10px;
   display: flex;
-
-
-
+  border-radius: 5px;
+  background-blend-mode: luminosity;
 }
-.chop{
-  padding: 6px;
-  width: 550px;
-  border: solid-black;
- 
- height: 15px; 
-padding: 20px;
-display: flex;
-margin: 30px;
-background: #f5f5f6;
-   float: left;
-
-  display: inline-block;
-  
-  font-size: 14px;
-
-  line-height: 24px;
-  color: #696e79;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box
-  
-  outline: 0;
-  border: 1px solid #f5f5f6;
-  border-radius: 0 4px 4px 0;
-  border-left: 0;
-
-
-}
-
 
 .sales{
   justify-content: center;
 align-items: center;
+padding-bottom: 40px;
 
 }
 
+.chop {
+
+  width: 550px;
+  border: solid-black;
+  padding-left: 0px;
+  height: 55px;
+  border-radius: 3px;
+  display: flex;
+  margin: 30px 33px 30px 2px;
+  background: #f5f5f6;
 
 
+  display: inline-block;
 
+  font-size: 14px;
 
-.container{ 
-  padding: 0 10vw; 
-}
+  line-height: 24px;
+  color: #696e79;
 
-.icon li{
-display: flex;
-margin-left: 29px;
-flex-wrap: wrap;
-display: flex;
-}
-
-.icon li a{
- position: relative;
-  }
-  
-
-.imgk{
  
+  border: 1px solid #f5f5f6;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.container {
+  padding: 0 10vw;
+}
+
+.icon li {
+  display: flex;
+  margin-left: 29px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.icon li a {
+  position: relative;
+}
+
+
+.imgk {
+
   width: 20px;
   padding: 0px;
   margin-left: 26px;
 }
 
-nav{
-  margin-top: 0%;
-  background-color: white;
+.war {
+  width: 25px;
+  height: 25px;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 15px;
+  background-color: rgb(187, 187, 248);
+  border-radius: 3px;
 
-  
 }
 
 
-nav ul li{
+
+
+
+nav {
+  margin-top: 0%;
+  background-color: white;
+
+
+}
+
+
+nav ul li {
   list-style: none;
   padding: 5px;
   margin-top: 32px;
   margin-left: 26px;
 
+}
+
+nav ul li a {
+  list-style: non;
+  text-decoration: none;
+  font-size: large;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  marker-mid: inherit;
+  padding: 10px;
  
 
-
-
 }
-nav ul li a{
-    list-style: non;
-    text-decoration: none;
-    font-size: large;
-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   marker-mid: inherit;
-   padding: 10px;
-  
+nav3{
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+.section1 {
+  background: #f2f2f2;
 }
 
-.section1{
-    background: #f2f2f2; 
-  }
-  
-  .search{
-    width: 34vw;
-      padding: 7px 17px;
-      border: 0.5px solid grey;
-      background: #f7f8fd;
-      border-radius: 5px;
-  }
-  
-  .homeImg{
-    width: 80vw;
-    margin: 12px 0;
-  }
-  
-  .itemImg{
-    width: 10vw;
-    margin: 6px 12px;
-  }
+.search {
+  width: 34vw;
+  padding: 7px 17px;
+  border: 0.5px solid grey;
+  background: #f7f8fd;
+  border-radius: 5px;
+}
 
+.homeImg {
+  width: 80vw;
+  margin: 12px 0;
+}
 
+.itemImg {
+  width: 10vw;
+  margin: 6px 12px;
+}
 
-
-
-footer{
-display: flex;
-justify-content: center;
-background: cornflowerblue;
-height: 400px;
-flex-direction: column;
-display: flex;
-
+footer {
+  display: flex;
+  justify-content: center;
+  background: cornflowerblue;
+  height: 400px;
+  flex-direction: column;
+  display: flex;
 
 }
-footer li{
 
+footer li {
 
   margin-left: 50px;
   list-style: none;
   text-decoration: none;
 }
 
-footer li a{
+footer li a {
   font-size: smaller;
   color: black;
   text-decoration: none;
 }
 
-footer p{
+footer p {
 
   display: flex;
-justify-content: center;
+  justify-content: center;
 
 }
 
@@ -233,49 +252,41 @@ justify-content: center;
 
 
 
+@media (max-width: 450px) {
+  .search {
+    width: 72vw;
+  }
+}
+
+@media (max-width: 1550px) {
+
+  nav ul li {
+    list-style: none;
+    padding: 0 4px;
+    font-size: 20px;
+  }
 
 
+  .containerHeader {
+    padding: 0 2vw;
+  }
 
+  header {
+    height: 122px;
+  }
 
+  nav {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
 
+  .right {
+    flex-direction: column;
+  }
 
-
-  @media (max-width: 450px) { 
-    .search {
-        width: 72vw; 
-    }
-    }
-    
-    @media (max-width: 1550px) { 
-    
-      nav ul li {
-        list-style: none;
-        padding: 0 4px;
-        font-size: 20px;
-    }
-      
-    
-      .containerHeader {
-        padding: 0 2vw;
-    }
-      
-    header{ 
-      height:122px;
-    }  
-    
-      nav{
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-      }
-    
-      .right{ 
-        flex-direction: column;
-      }
-    
-      .rightBox{
-        display: flex;
-        margin: 12px;
-      }
-    }
-    
+  .rightBox {
+    display: flex;
+    margin: 12px;
+  }
+}
